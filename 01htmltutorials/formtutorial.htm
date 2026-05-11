@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--
+        <label>Name:</label>
+        <input type="text">
+        <br><br>
+        <label>Age:</label>
+        <input type="number">
+        <br><br>
+        <label>Password:</label>
+        <input type="password">
+        <br><br>
+        <input type="submit">
+        -->
+        <!--now we just sent values after submitt but now we need send name also...name=val pair jaise bechna hai-->
+        <label for="name">Name:</label>
+        <input type="text" name="userName" id="name">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="userAge" id="age">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="userPassword" id="pass">
+        <br><br>
+        <label>Gender:</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">
+        <!--this is ticking all -->
+        <!--when adding name attribute it is allowing to click any one only-->
+        <!--with for-id attribute we are linking label part with input..clicking on label mark its respective tick-->
+        <!--by default ticks type has gender=on it means default value becomes "on" so mention value also as seen above-->
+        <br><br>
+        <label>Subject</label>
+        <br>
+        <label for="c++">C++</label>
+        <input type="checkbox" name="Subject" id="c++" value="c++">
+        <label for="java">Java</label>
+        <input type="checkbox" name="Subject" id="java" value="java">
+        <label for="python">Python</label>
+        <input type="checkbox" name="Subject" id="python" value="python">
+        <br><br>
+        <input type="submit">
+
+        <!--http://127.0.0.1:5500/formtutorial.htm?userName=K.Suma&userAge=19&userPassword=code2025&gender=on-->
+        <!--http://127.0.0.1:5500/formtutorial.htm?userName=K.Suma&userAge=19&userPassword=code29&gender=Female-->
+        <!--http://127.0.0.1:5500/formtutorial.htm?userName=K.Suma&userAge=19&userPassword=code33&gender=Female&Subject=on&Subject=on-- by default again subject is on..so enter value attribute>
+        <!--http://127.0.0.1:5500/formtutorial.htm?userName=K.Suma&userAge=19&userPassword=code22&gender=Female&Subject=java&Subject=python-->
+    </form>
+</body>
+</html>
