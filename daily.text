@@ -1,0 +1,8 @@
+Summary of your "Daily Routine" from now on:
+Now that your setup is done, your workflow for every day of your YouTube tutorial is just 3 simple commands at the end of your study session:
+
+git add . (Gather your day's work)
+
+git commit -m "Day 05: Finished Flexbox tutorial" (Label it)
+
+git push (Send it to the cloud)
