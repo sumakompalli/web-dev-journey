@@ -38,4 +38,4 @@ function doSomething(callback) {
     callback();
 }
 
-doSomething(sayBye);
+doSomething(sayBye); 
